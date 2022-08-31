@@ -12,6 +12,8 @@ The AG News contains 30,000 training and 1,900 test samples per class.
 The project aims at building, training and fine-tuning the BERT model with respect to classification on the AG News dataset.
 
 ## Tools and Technologies:
-Language: Python\n
-Libraries: ktrain, transformers, datasets, numpy, pandas, tensorflow, timeit\n
+Language: Python
+
+Libraries: ktrain, transformers, datasets, numpy, pandas, tensorflow, timeit
+
 Environment: Jupyter Notebook
