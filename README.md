@@ -28,10 +28,6 @@ The aim is to build, train, and fine-tune the BERT model to classify text from t
     - **Text**: News article title and description
     - **Label**: Class of the news article (0: World, 1: Sports, 2: Business, 3: Sci/Tech)
 
----
-
-## Dataset Description:
-
 For my project, I used AGnews as one of the datasets from the hugging face library. The BERT model will be built on the AG News dataset.
 
 AG News (AG’s News Corpus) is a sub dataset of AG's corpus of news articles constructed by assembling titles and description fields of articles from the 4 largest classes. The four classes are: World, Sports, Business, Sci/Tech
