@@ -137,3 +137,22 @@ The AG News contains 30,000 training and 1,900 test samples per class.
    ```bash
    pip install -r requirements.txt
 
+
+## Training and Evaluation
+Load the dataset from the Hugging Face library.
+
+### Train the BERT model:
+```bash
+bert_learner.fit_onecycle(lr=2e-5, epochs=3)
+```
+### Evaluate the model:
+```bash
+bert_learner.validate(class_names=class_label_names)
+```
+### Saved Model
+The trained model is saved in the output folder and can be reused without retraining.
+
+## References
+Hugging Face Library: https://huggingface.co/
+Research Paper on BERT: https://arxiv.org/abs/1810.04805
+
